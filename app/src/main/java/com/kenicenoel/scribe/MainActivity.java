@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Toast;
 
 import com.kenicenoel.quicktools.Toolkit;
 
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity
         else if(receivedAction.equals(Intent.ACTION_MAIN))
         {
             // app has been launched directly, not from share list
+            Toast.makeText(getApplicationContext(), "You launched the app manually", Toast.LENGTH_SHORT).show();
         }
 
 
