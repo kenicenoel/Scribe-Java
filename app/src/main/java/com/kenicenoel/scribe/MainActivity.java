@@ -15,9 +15,10 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
 {
-    private final String URL = "https://stream.watsonplatform.net/speech-to-text/api";
-    private final String USERNAME = "b4af98fe-c6bf-40f7-b0ad-8b9e6c1ca70d";
-    private final String PASSWORD = "dIonSuVOYheL";
+    // Removed IBM Watson Credentials 2018-06-08
+    private final String URL = "";
+    private final String USERNAME = "";
+    private final String PASSWORD = "";
     private Toolkit toolkit;
     private ScribedTextAdaptor adaptor;
     private RecyclerView recyclerView;
